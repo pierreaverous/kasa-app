@@ -1,0 +1,31 @@
+.Logo {
+  margin-left: 90px;
+  
+}
+
+.HeaderBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
+.NavHeader{
+  display: flex;
+  margin-right: 90px;
+  flex-direction: row;
+}
+
+#NavAcceuil{
+  padding-right: 20px;
+  color: #FF6060;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#A-propos{
+  color: #FF6060;
+  font-size: 24px;
+  font-weight: 500;
+}
