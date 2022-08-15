@@ -1,0 +1,18 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 40px;
+  justify-content: center;
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  flex-wrap: wrap;
+  height: auto;
+
+}
+.rowsContainer{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}

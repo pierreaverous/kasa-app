@@ -1,0 +1,19 @@
+.backgroundfooter{
+  background-color: black;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.logoFooter{
+  display: flex;
+  justify-content: center;
+
+}
+.footerText{
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from '../Assets/LOGO.png';
-import '../../src/Scss/components/_Header.scss'
+import logo from '../../Assets/LOGO.png';
+import '../../Scss/components/_Header.scss'
 
-function Banner() {
+function Header() {
   return (
     <div className='HeaderBar'>
       <div className='Logo'>
@@ -21,4 +21,4 @@ function Banner() {
   )
 };
 
-export default Banner
+export default Header

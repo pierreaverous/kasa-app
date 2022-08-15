@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../src/Scss/components/_BackgroundHome.scss'
+import '../../Scss/components/_Banner.scss'
 
-function BackGroundImage(){
+function Banner(){
   return(
     <div id='backgroundimagewidth'>
       <div id='divbackgroundHome'>
@@ -12,4 +12,4 @@ function BackGroundImage(){
   )
 }
 
-export default BackGroundImage
+export default Banner

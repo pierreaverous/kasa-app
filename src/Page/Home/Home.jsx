@@ -1,9 +1,12 @@
 /* import logo from './logo.svg'; */
-import Banner from '../../Components/Banner'
-import BackGroundImage from '../../Components/backgroundImage';
+import Header from '../../Components/Home/Header'
+import Banner from '../../Components/Home/Banner';
 import React, {useEffect, useState} from 'react';
-import Card from "../../Components/CardLogement";
+import Card from "../../Components/Home/CardLogement";
 import {fetchAll} from "../../Api/Api";
+import '../../Scss/components/_Home.scss'
+import Footer from "../../Components/Home/Footer";
+
 
 const  Home = () => {
     const [accommodation , setAccommodation] = useState([])
@@ -19,9 +22,15 @@ const  Home = () => {
 
   return (
     <>
+      <Header/>
       <Banner/>
-      <BackGroundImage/>
-        {accommodation.map(a=> <Card accommodation={a}/>)}
+        <div className='container'>
+
+            {accommodation.map(a=> <Card accommodation={a}/>)}
+        </div>
+        <Footer/>
+
+
 
     </>
 
