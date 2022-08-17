@@ -8,7 +8,7 @@ import BannerLogment from "../../Components/LogementPage/bannerLogment";
 const AccomadationPage = () => {
     const [accommodationId , setAccommodationId] = useState([])
     const loadAccommodationId = async () => {
-        console.log(fetchById())
+        // console.log(fetchById())
         const dataId = await fetchById()
         setAccommodationId(dataId)
         console.log(dataId)
@@ -23,7 +23,7 @@ const AccomadationPage = () => {
     return(
         <>
             <Header/>
-            {accommodationId.map(a => <BannerLogment accommodation={a}/>)}
+            <BannerLogment/>
 
             <Footer/>
         </>
