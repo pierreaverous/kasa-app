@@ -13,7 +13,7 @@ const  Home = () => {
     const loadAccommodation = async () => {
         const data = await fetchAll()
         setAccommodation(data)
-
+      console.log(data)
     }
     useEffect(()=>{
         loadAccommodation()

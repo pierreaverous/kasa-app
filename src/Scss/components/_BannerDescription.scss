@@ -1,0 +1,85 @@
+
+#container{
+  max-width:80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3.2%;
+  flex-direction:row-reverse;
+  align-items: center;
+
+
+}
+
+.container-right{
+  display: flex;
+  flex-direction: column;
+}
+#namepicture{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#stars{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#username{
+  color: #FF6060;
+  font-weight: 500;
+  margin-right: 10px;
+}
+#user-picture{
+  width: 80px;
+  height: 80px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FF6060;
+  border-radius: 50%;
+}
+
+
+#title-container{
+  margin-top: 0px;
+  margin-left: 8.5%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#title{
+  font-weight: 500;
+  font-size: 28px;
+  color: #FF6060;
+
+}
+
+#location{
+  color: #FF6060;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: -25px;
+  margin-left: 3px;
+
+}
+
+.container-tag{
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  justify-content: space-between;
+  color: white;
+  margin-top: -15px;
+  margin-left: -2px;
+}
+
+.tags{
+ display: flex;
+  width: 86px;
+  justify-content: space-around;
+  background-color: #FF6060;
+  padding: 8px;
+  border-style: solid;
+  border-radius: 25px;
+  font-size: 14px;
+}
