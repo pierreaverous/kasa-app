@@ -15,6 +15,7 @@
   display: flex;
   margin-right: 90px;
   flex-direction: row;
+  border-bottom: 3px solid transparent;
 }
 
 #NavAcceuil{
@@ -28,4 +29,16 @@
   color: #FF6060;
   font-size: 24px;
   font-weight: 500;
+
 }
+.NavHeader:active{
+  border-bottom: 3px solid #FF6060;
+}
+.NavHeader:hover{
+  border-bottom: 3px solid #FF6060;
+}
+
+.borderBottom{
+  text-decoration:none;
+}
+
