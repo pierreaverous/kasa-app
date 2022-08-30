@@ -31,14 +31,32 @@
   font-weight: 500;
 
 }
-.NavHeader:active{
-  border-bottom: 3px solid #FF6060;
+.NavHeaderActive{
+  border-bottom: 2px solid #FF6060;
+
 }
-.NavHeader:hover{
-  border-bottom: 3px solid #FF6060;
-}
+
 
 .borderBottom{
   text-decoration:none;
 }
 
+#HeaderMenu{
+  display: flex;
+}
+@media screen and (max-width: 426px){
+  .Logo{
+    width: 30%;
+    margin-left: 10px;
+  }
+  .logoImg{
+    width:100%;
+  }
+ .HeaderBar{
+  justify-content: space-around;
+ }
+  #A-propos{
+    padding-right: 20px;
+
+  }
+}

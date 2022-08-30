@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Scss/components/_Carroussel.scss'
+import './_Carroussel.scss'
 import leftArrow from '../../Assets/left-arrow.svg'
 import rightArrow from '../../Assets/right-arrow.svg'
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Scss/components/_BannerAPropos.scss'
+import './_BannerAPropos.scss'
 
 function BannerAPropos(){
     return(

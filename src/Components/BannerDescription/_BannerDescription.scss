@@ -83,3 +83,32 @@
   border-radius: 25px;
   font-size: 14px;
 }
+
+@media screen and (max-width: 427px) {
+  #container{
+    flex-direction: column-reverse;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .container-right{
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 80%;
+  }
+  #username{
+    margin-right: 0px;
+    width: 60px;
+  }
+  #stars{
+    width: 200px;
+    margin-right: 48px;
+  }
+  #title-container{
+    margin-left: 0px;
+    width: 80%;
+  }
+  .container-tag{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

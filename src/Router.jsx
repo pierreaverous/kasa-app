@@ -18,6 +18,7 @@ const Router = () => {
                 <Route path="/:id" element={<AccomadationPage/>}/>
                 <Route path="/apropos" element={<Apropos/>}/>
                 <Route path="/error" element={<ErrorPage/>}/>
+                <Route path="*" element={<ErrorPage/>}/>
             </Routes>
 
         </BrowserRouter>)

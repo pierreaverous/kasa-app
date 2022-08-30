@@ -12,3 +12,14 @@
   justify-content: center;
   margin-left: 10%;
 }
+
+@media screen and (max-width: 427px){
+  #container-dropdownApropos{
+    margin-top: 0px;
+  }
+  .dropdowndiv{
+    margin-top: 5px;
+    width: 90%;
+    margin-left: 5%;
+  }
+}

@@ -1,11 +1,11 @@
 /* import logo from './logo.svg'; */
-import Header from '../../Components/Home/Header'
-import Banner from '../../Components/Home/Banner';
+import Header from '../../Components/Header/Header'
+import Banner from '../../Components/Banner/Banner';
 import React, {useEffect, useState} from 'react';
-import Card from "../../Components/Home/CardLogement";
+import Card from "../../Components/Card/CardLogement";
 import {fetchAll} from "../../Api/Api";
-import '../../Scss/components/_Home.scss'
-import Footer from "../../Components/Home/Footer";
+import './_Home.scss'
+import Footer from "../../Components/Footer/Footer";
 
 
 const  Home = () => {
@@ -22,7 +22,7 @@ const  Home = () => {
 
   return (
     <>
-      <Header/>
+      <Header selectedMenu={'Acceuil'}/>
       <Banner/>
         <div className='container'>
 

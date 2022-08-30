@@ -1,13 +1,13 @@
 import React, {useEffect, useState,} from "react";
 
-import Header from "../../Components/Home/Header";
-import Footer from "../../Components/Home/Footer";
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
 import {fetchById} from "../../Api/Api";
-import CarousselBanner from "../../Components/LogementPage/CarousselBanner";
+import CarousselBanner from "../../Components/Caroussel/CarousselBanner";
 import {useParams} from "react-router-dom";
-import BannerDescription from "../../Components/LogementPage/BannerDescription";
-import DropDown from "../../Components/LogementPage/DropDown"
-import '../../Scss/components/_AccommodationPage.scss'
+import BannerDescription from "../../Components/BannerDescription/BannerDescription";
+import DropDown from "../../Components/DropDown/DropDown"
+import './_AccommodationPage.scss'
 
 
 const AccomadationPage = () => {

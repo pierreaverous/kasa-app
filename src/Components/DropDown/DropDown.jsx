@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import chevronDown from '../../Assets/chevron_down.svg'
-import '../../Scss/components/_DropDown.scss'
+import './_DropDown.scss'
 
 const DropDown = ({ title, content }) => {
     const [isExpanded, setIsExpanded] = useState(false)

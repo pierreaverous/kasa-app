@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "../../Components/Home/Header";
-import Banner from "../../Components/Home/Banner";
-import Footer from "../../Components/Home/Footer";
-import DropDown from "../../Components/LogementPage/DropDown";
-import '../../Scss/components/_AproposPage.scss'
+import Header from "../../Components/Header/Header";
+import Banner from "../../Components/Banner/Banner";
+import Footer from "../../Components/Footer/Footer";
+import DropDown from "../../Components/DropDown/DropDown";
+import './_AproposPage.scss'
 import AproposBanner from "../../Components/AproposPage/AproposBanner";
 
 
 const Apropos = () => {
    return (
        <>
-           <Header/>
+           <Header selectedMenu={'About'}/>
            <AproposBanner/>
            <div id="container-dropdownApropos">
                <div className="dropdowndiv">

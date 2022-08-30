@@ -1,7 +1,7 @@
 import React from "react";
-import '../../Scss/components/_BannerDescription.scss'
-import Rating from "./Star";
-import DropDown from "./DropDown";
+import './_BannerDescription.scss'
+import Rating from "../Stars/Star";
+import DropDown from "../DropDown/DropDown";
 
 const bannerDescription = ({accommodation}) => {
     return(

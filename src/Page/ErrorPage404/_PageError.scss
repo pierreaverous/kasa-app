@@ -41,3 +41,17 @@
   text-decoration: none;
 
 }
+
+@media screen and (max-width: 427px){
+ .error404{
+   font-size: 150px;
+ }
+  .oups{
+    font-size: 18px;
+    margin-top: -100px;
+  }
+  .backToHome{
+    font-size: 14px;
+  }
+
+}

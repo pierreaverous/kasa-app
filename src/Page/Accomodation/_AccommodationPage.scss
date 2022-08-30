@@ -1,0 +1,14 @@
+#container-dropdown{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+@media screen and (max-width: 427px) {
+  #container-dropdown{
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+}

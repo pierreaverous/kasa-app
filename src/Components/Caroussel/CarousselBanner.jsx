@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import '../../Scss/components/_Carroussel.scss'
+import './_Carroussel.scss'
 import BtnSlider from "./BtnSlider";
 
 

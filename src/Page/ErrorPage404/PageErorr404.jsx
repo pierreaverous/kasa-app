@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../../Components/Home/Header";
-import Footer from "../../Components/Home/Footer"
-import '../../Scss/components/_PageError.scss'
+import Header from "../../Components/Header/Header";
+
+import './_PageError.scss'
 import {Link} from "react-router-dom";
 
 const ErrorPage = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import '../../Scss/components/_Card.scss'
+import './_Card.scss'
 import {Link} from 'react-router-dom'
 
 

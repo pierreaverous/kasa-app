@@ -42,17 +42,22 @@
     display: none;
     transform: translateY(-100%);
   }
-  @media screen and (max-width: 742px) {
-    width: 100%;
+}
+  @media screen and (max-width: 427px) {
+
     .collapse-header {
       font-size: 13px;
+    }
+    .collapse{
+
+      margin-top: 20px;
     }
     .content.collapse-expanded {
       line-height: 17px;
     }
     p, span {
       font-size: 12px;
-      color: #FF6060;
+      color: #fff;
     }
   }
-}
+
