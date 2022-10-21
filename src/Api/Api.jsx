@@ -1,5 +1,5 @@
 import Accommodation from './Data/Accommodation.json'
-
+//fetch de l'api 
 const fetchAll = async () => {
     return Accommodation
 }
